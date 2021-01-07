@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Las Delicias de Pato</title>
+    <link rel="stylesheet" href="frontend/css/index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Menu Desplegable -->
+    <header>
+        <nav id="cajaDesplegable">
+            <ul id="contenidoDes">
+                <div id="color">
+                    <img src="frontend/image/svg/menu.svg" id="botonMenu">
+                </div>
+                <li><a href="" id="top"><span>Dulces</span></a></li>
+                <li><a href=""><span>Salados</span></a></li>
+                <li><a href=""><span>Contactos</span></a></li>
+                <li><a href=""><span>Acerca de</span></a></li>
+                <li><a href=""><span>Comidas</span></a></li>
+            </ul>
+        </nav>
+    </header>
+<!-- fin Menu Desplegable -->
+<!-- OnLoader -->
+    <div id="cajaOnLoader">
+        <span id="subCajaOnLoader">
+            <span id="onLoader"></span>
+            <p id="onLoaderText">Cargando Recursos.</p>
+        </span>
+    </div>
+<!-- Fin OnLoader -->
+    <div id="principio">
+        <div id="contPrin">
+            <img src="frontend/image/logo.png" alt="Logo" id="imgLogo">
+            <h1 id="title">Las Delicias de Pato</h1>
+        </div>
+        <div id="btnPrin">
+            <ul>
+                <li><a href="#" id="email"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+                <li><a href="#" id="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#" id="whatsapp"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="titCuerpo">
+        <h2>Productos mas vendidos hasta la fecha!!!</h2>
+    </div>
+    <div id="cajaTarjeta">
+        <div id="tarjeta">
+            <img src="frontend/image/Cup1.jpg" alt="">
+            <h3>Objeto1</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A sed voluptatibus molestias quidem? Nesciunt dolorem quibusdam optio mollitia asperiores. Corrupti dolorem eaque dignissimos omnis vitae ipsa eveniet laboriosam cum repudiandae!</p>
+            <span id="a1"></span>
+            <span id="a2"></span>
+            <span id="a3"></span>
+            <span id="a4"></span>
+            <span id="a1f"></span>
+            <span id="a2f"></span>
+            <span id="a3f"></span>
+            <span id="a4f"></span>
+        </div>
+        <div id="tarjeta">
+            <img src="frontend/image/Cup2.jpg" alt="">
+            <h3>Objeto2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit suscipit dolorum est. Iste cum a saepe nobis perspiciatis alias! Delectus quod tempore sunt repellendus voluptatem similique ad perspiciatis itaque dignissimos?</p>
+            <span id="a1"></span>
+            <span id="a2"></span>
+            <span id="a3"></span>
+            <span id="a4"></span>
+        </div>
+        <div id="tarjeta">
+            <img src="frontend/image/Cup3.jpg" alt="">
+            <h3>Objeto3</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, obcaecati facere? Minima maxime fugit provident, temporibus pariatur consequatur. Atque maiores commodi ab culpa. Voluptatibus, saepe perspiciatis. Voluptatibus cupiditate obcaecati nostrum.</p>
+            <span id="a1"></span>
+            <span id="a2"></span>
+            <span id="a3"></span>
+            <span id="a4"></span>
+        </div>
+    </div>
+    <h2>Envianos tu Consulta o Pedido!!</h2>
+    <div id="cajaFormulario">
+        <form id="datosDeFormulario" action="">
+            <tr>
+                <td><label for="name">Nombre</label></td><br>
+                <td><input type="text" id="name" class="name-cls" name="nname" value="Nombre aqui"></td>
+            </tr><br><br>
+            <tr>
+                <td><label for="lastname">Apellido</label></td><br>
+                <td><input type="text" id="lastname" class="lastname-cls" name="nlastname" value="Apellido aqui"></td>
+            </tr><br><br>
+            <tr>
+                <td><label for="cp">Codigo Postal</label></td><br>
+                <td><input type="text" id="cp" name="ncp" class="ncp-cls" value="Codigo Postal aqui"></td>
+            </tr><br><br>
+            <tr>
+                <td><label for="email">Email</label></td><br>
+                <td><input type="email" id="email-id" class="email-cls" name="email" value="Email aqui"></td>
+            </tr><br><br>
+            <tr>
+                <td><input type="submit" name="enviar" id="enviar"></td>
+            </tr>
+        </form>
+    </div>
+    <div id="footer"></div>
+    <script src="frontend/js/index.js"></script>
+</body>
+</html>
